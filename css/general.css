@@ -94,3 +94,13 @@ img {
     width: auto;
     margin: 1rem;
 }
+
+footer p {
+    font-size: .7rem;
+    color:  white;
+    margin: 1rem;
+}
+
+a {
+    color:#FFF200
+}
