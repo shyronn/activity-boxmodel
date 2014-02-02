@@ -21,41 +21,71 @@ html {
     font-size: 100%;
     font-family: Garamond, Baskerville, "Times New Roman", serif;
     color: white;
+    font-size: 1.2rem;
 }
 
 img {
-	width: 50%;
+	width: 100%;
     display: block;
+}
+
+.logo {
+    height: 15rem;
+    width: auto;
+    margin: .5rem auto;
+    /* float: right; */
+    /* margin: .5rem auto; */
+}
+
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow: hidden;
 }
 
 h1 {
     margin: 0rem 0;
     font-size: 1.25rem;
+}  
+
+figure {
+    margin: 0 auto 1.5rem; /* auto in case we want smaller */
+    width: 100%; /* size can be smaller then, but not larger then 100% */
+    padding: 1rem;
+}
+
+figcaption {
+    font-size: .7rem;
+    margin-top: 5rem 0 0;
+    color:  white;
+    margin: .05rem;
+    padding: .5rem;
 }
 
 h2 {
     font-size: 1.5rem;
-    color: #FFF200
+    color: #FFF200;
 }
 
 h3 {
     font-size: 1.5rem;
-    color: #FFF200
+    color: #FFF200;
 }
 
 h4 {
     font-size: 1.5rem;
-    color: #FFF200
+    color: #FFF200;
 }
 
 h5 {
     font-size: 1.5rem;
-    color: #FFF200
+    color: #FFF200;
 }
 
 body {
     background-color: #EC008C;
 }
+
 img {
 	width: 100%;
     display: block;
